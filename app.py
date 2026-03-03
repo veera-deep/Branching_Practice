@@ -56,7 +56,7 @@ class Bank:
 
     def create_account(self):
         name = input("Enter Account Holder Name: ")
-        acc_number = input("Enter Account Number: ")
+        acc_number = input("Enter Account Number and Name: ")
 
         if acc_number in self.accounts:
             print("❌ Account already exists!")
