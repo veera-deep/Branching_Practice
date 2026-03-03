@@ -127,7 +127,7 @@ def main():
         elif choice == "4":
             bank.check_account_balance()
 
-        elif choice == "5":
+        elif choice == "7":
             bank.show_account_transactions()
 
         elif choice == "6":
