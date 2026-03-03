@@ -55,7 +55,7 @@ class Bank:
         self.accounts = {}
 
     def create_account(self):
-        name = input("Enter Account Holder Name: ")
+        name = input("Enter Account Holder Name and details: ")
         acc_number = input("Enter Account Number: ")
 
         if acc_number in self.accounts:
